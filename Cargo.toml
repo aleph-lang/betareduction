@@ -2,6 +2,9 @@
 name = "betareduction"
 version = "0.1.0"
 edition = "2021"
+license-file="LICENSE"
+repository="https://github.com/aleph-lang/betareduction"
+description="Beta reduction of Aleph Syntax Tree to AST."
 
 [profile.dev]
 opt-level = 3
@@ -10,4 +13,4 @@ opt-level = 3
 opt-level = 3 
 
 [dependencies]
-aleph-syntax-tree = { git = "ssh://git@github.com/aleph-lang/aleph-syntax-tree.git" }
+aleph-syntax-tree = "0.1.0"
